@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:practice_5/widgets/breedListTile.dart';
+import 'package:practice_5/widgets/breedViewPager.dart';
 import 'package:practice_5/widgets/squareBreedWidget.dart';
 
 class MainPage extends StatelessWidget {
@@ -14,6 +15,7 @@ class MainPage extends StatelessWidget {
           children: [
             BreedListTile(),
             SquareBreedWidget(),
+            BreedViewPager(),
           ],
         )),
       ),
