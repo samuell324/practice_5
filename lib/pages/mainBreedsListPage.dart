@@ -11,13 +11,14 @@ class MainPage extends StatelessWidget {
         appBar: AppBar(
           title: Text('Main page'),
         ),
-        body: Container(child: Column(
-          children: [
-            BreedListTile(),
-            SquareBreedWidget(),
-            BreedViewPager(),
-          ],
-        )),
+        body: Container(
+            child: ListView(
+              children: [
+                BreedListTile(),
+                SquareBreedWidget(),
+                BreedViewPager(),
+              ],
+            )),
       ),
     );
   }
